@@ -1,14 +1,67 @@
 <!doctype html>
 <html lang="pt-BR">
   <head>
-    <meta charset="UTF-8" />
-    <title>Teste VS Code</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Curso de Frontend — Landing</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>VS Code funcionando 🔥</h1>
-    <p>Primeiro teste de ambiente configurado.</p>
+    <header class="site-header">
+      <div class="container">
+        <h1 class="brand">Curso Frontend</h1>
+        <nav class="nav">
+          <a href="#hero">Início</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container">
+          <h2>Aprenda Frontend moderno</h2>
+          <p>Domine HTML, CSS e JavaScript construindo projetos reais.</p>
+          <a class="btn" href="#contato">Inscreva-se agora</a>
+        </div>
+      </section>
+
+      <section id="sobre" class="sobre">
+        <div class="container">
+          <h3>Sobre o curso</h3>
+          <p>Curso intensivo para iniciantes e profissionais que querem atualizar habilidades com técnicas modernas e melhores práticas.</p>
+          <ul class="features">
+            <li>Projetos práticos</li>
+            <li>Mentoria</li>
+            <li>Material atualizado</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contato" class="contato">
+        <div class="container">
+          <h3>Contato / Inscrição</h3>
+          <form action="#" class="contact-form">
+            <label for="nome">Nome</label>
+            <input id="nome" name="nome" type="text" placeholder="Seu nome" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="seu@exemplo.com" required />
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Dúvidas ou comentário"></textarea>
+
+            <button class="btn" type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 Curso Frontend — Todos os direitos reservados</p>
+      </div>
+    </footer>
   </body>
 </html>
-<h1>VS Code funcionando 🔥</h1>
-<p>teste</p>
